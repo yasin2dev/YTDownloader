@@ -1,3 +1,4 @@
+import webbrowser
 from tkinter import *
 from tkinter.messagebox import showinfo
 
@@ -13,5 +14,5 @@ def popupBehaviour():
     closeBtn = Button(pw, text="Close", command=pw.destroy)
     closeBtn.pack(pady=20, padx=20)
 
-#TODO at v0.2
-#def ReportBug():
+def ReportBug():
+    webbrowser.open('mailto:yasin2developer@gmail.com', new=1)

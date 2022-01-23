@@ -21,8 +21,7 @@ class App(Tk):
         self.mainMenu = Menu(self.master)
         self.helpMenu = Menu(self.mainMenu, tearoff=0)
         self.mainMenu.add_cascade(label="Help", menu=self.helpMenu)
-        #TODO menuCommands@16
-        self.helpMenu.add_command(label="Report a Bug")
+        self.helpMenu.add_command(label="Report a Bug", command=commands.menuCommands.ReportBug)
         self.helpMenu.add_command(label="Behaviour of YT", command=commands.menuCommands.popupBehaviour)
 
         self.config(menu=self.mainMenu)
