@@ -13,5 +13,5 @@
     <li>Tkinter library</li>
 </ul>
 
-<h2>Screenshot from v0.1<h2>
+<h2>Screenshot from v0.2<h2>
 <img src="./res/resdefault.png" width="350">

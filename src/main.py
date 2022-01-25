@@ -1,4 +1,4 @@
-#YTDownloader v0.1
+#YTDownloader v0.2
 
 from tkinter import *
 import ctypes
