@@ -51,6 +51,7 @@ class App(Tk):
         commands.download.createConsole(self.master)
 
     def DownloadOperations(self):
+        commands.download.SelectDownloadPath()
         if self.option_t[0] == self.value_i.get():
            commands.download.DownloadWithHR(self.ytLink.get())
         else:
